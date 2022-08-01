@@ -1,0 +1,34 @@
+{
+  "name": "typescript-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/1Leep/typescript-bot.git#README",
+  "author": "1Leep",
+  "description": "Typescript Bot made with Discord.js",
+  "repository": {
+    "url": "https://github.com/1leep/typescript-bot.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc --project tsconfig.json",
+    "clean": "rm -rf dist",
+    "start": "cd dist && node index.js",
+    "fix": "npx eslint --fix src"
+  },
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "0.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.7.4"
+  }
+}

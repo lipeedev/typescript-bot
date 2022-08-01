@@ -1,0 +1,7 @@
+dist/
+.ccls-cache/
+node_modules/
+.env
+*.lock
+*.log
+
